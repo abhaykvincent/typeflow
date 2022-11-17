@@ -4,7 +4,7 @@ import './Header.scss'
 function Header() {
   return (
     <header>
-        <div className="logo">Logo</div>
+        <div className="logo"></div>
     </header>
   )
 }

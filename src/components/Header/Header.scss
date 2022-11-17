@@ -3,7 +3,13 @@ header{
     top: 0px;
     left: 0px;
     width: 100vw;
-    height: 8px*10;
+    height: 8px*12;
     width: 100vw;
     background-color: rgba(250, 235, 215, 0);
+    padding: 8px*2  8px*5;
+    .logo{
+        height: 100%;
+        background-image: url('../../assets/logo/logo-001.png');
+        background-repeat: no-repeat;
+    }
 }
