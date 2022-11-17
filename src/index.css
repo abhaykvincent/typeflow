@@ -9,7 +9,4 @@ body {
 
 .App{
   width: 100vw;
-  height: 100vh;
-  background-image: url('./assets/comming-soon-hero.png');
-  background-size: cover;
 }
