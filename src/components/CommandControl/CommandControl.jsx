@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './CommandControl.scss'
 function CommandControl() {
   return (
     <div className="command-control">
