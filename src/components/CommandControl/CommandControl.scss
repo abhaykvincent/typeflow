@@ -1,8 +1,53 @@
 .command-control{
+    display: flex;
+    justify-content: end;
     position: fixed;
     bottom: 0;
     right: 0;
     width: 100vw;
     padding: 8px*3;
     background-color: #252526;
-}
+    .language-settings{
+        padding: 8px;
+        margin-right: 8px*10;
+        label{
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            margin-right: 8px*2;
+        }
+        select{
+            background-color: #1E1E1E;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 4px;
+            padding: 8px;
+            color: #fff;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+    .command-input__wrapper{
+        display: flex;
+        input{
+            padding: 8px*2;
+            width: 50vw;
+            border-radius: 8px;
+            margin-right: 8px*2;
+            background-color: #1E1E1E;
+            border: 1px solid#b6b6b6;
+            font-size: 8px*2.5;
+        }
+        button{
+            height: 8px*8;
+            width: 8px*8;
+            background-image: url('../../assets/buttons/play.png');
+            background-size: 100%;
+            background-color: rgba(255, 255, 255, 0);
+            border: none;
+        }
+    }
+}   
