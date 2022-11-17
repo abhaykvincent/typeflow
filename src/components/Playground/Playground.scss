@@ -3,11 +3,14 @@
     border-radius: 4px;
     pre{
         display: grid;
-        padding: 8px;
+        padding: 0px 8px  !important;
     }
     code{
         background-color: #1E1E1E;
-        margin-bottom: 8px;
-        padding: 4px;
+        margin-bottom: 4px;
+        padding: 8px*2;
+        padding-top: 8px*5;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 4px;
     }
 }

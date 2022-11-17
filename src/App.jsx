@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import SourceCode from './components/SourceCode/SourceCode';
 import CommandControl from './components/CommandControl/CommandControl';
 import Playground from './components/Playground/Playground';
+import './library/prism.css';
 
 function App() {
   return (
